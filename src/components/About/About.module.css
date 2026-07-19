@@ -1,0 +1,10 @@
+.body {
+  color: var(--muted);
+  font-size: 15px;
+  max-width: 720px;
+  margin: 0;
+}
+.body strong {
+  color: var(--fg);
+  font-weight: 600;
+}

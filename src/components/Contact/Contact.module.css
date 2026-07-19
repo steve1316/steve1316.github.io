@@ -1,0 +1,9 @@
+.contactBg {
+  background: radial-gradient(600px 260px at 50% 120%, rgba(88, 166, 255, 0.12), transparent 60%);
+}
+.cta {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  flex-wrap: wrap;
+}

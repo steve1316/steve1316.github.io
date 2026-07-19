@@ -1,0 +1,19 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.more {
+  margin-top: 16px;
+  font-size: 13.5px;
+  color: var(--muted);
+  font-family: var(--font-mono);
+}
+.more a {
+  color: var(--accent);
+}
+@media (max-width: 680px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

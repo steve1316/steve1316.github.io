@@ -1,0 +1,23 @@
+.section {
+  padding: 56px 0;
+  border-top: 1px solid var(--border);
+}
+.heading {
+  font-family: var(--font-mono);
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  color: var(--fg);
+}
+.heading::before {
+  content: '// ';
+  color: var(--accent);
+}
+.sub {
+  color: var(--muted);
+  font-size: 14px;
+  margin: 0 0 26px;
+}
+.center {
+  text-align: center;
+}
