@@ -1,0 +1,19 @@
+/* Design tokens - "Terminal Dark" theme (cohesive with the GitHub profile README). */
+:root {
+  --bg: #0d1117;
+  --bg-2: #010409;
+  --fg: #e6edf3;
+  --muted: #8b949e;
+  --accent: #58a6ff;
+  --accent-fg: #04101f;
+  --card: #161b22;
+  --border: #232b36;
+  --tag-bg: #1b2430;
+  --tag-fg: #7ee0ff;
+
+  --font-mono: 'Fira Code', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-body: 'Inter', system-ui, -apple-system, Segoe UI, Helvetica, Arial, sans-serif;
+
+  --maxw: 920px;
+  --radius: 10px;
+}
